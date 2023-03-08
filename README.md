@@ -3,7 +3,7 @@
 
 
 ## Usage
-	./optTrees -S <file with a species tree> -G <file with a gene tree> [-D <int>, -L <int>, -o <output name> -h]
+	./optTrees -S <file with a species tree> -G <file with a gene tree> [-D <int>, -L <int>, -o <output name> , -u, -h, --maxtrees=<int>]
 
 ## Options
 	-S <file with a species tree>
@@ -15,7 +15,9 @@
 	-t -- save all optimal gene trees to the output file
 	-m -- print heatmap results
 	-o -- output file name -- default value: optTree.out
+	-u -- write onlu uniqe trees
 	-h -- print help
+	--maxtrees=<num of trees> -- maximum number of the output trees
 
 ## Examples
 
